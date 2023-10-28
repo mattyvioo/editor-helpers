@@ -19,7 +19,7 @@ I'll try to keep the plugin updated as I add more functionalities for my own nee
 
 ## Demo
 
-<img src="./gif/demo.gif" alt="demo-gif" width="640" height="360" border="10" />
+<img src="./gif/demo.gif" alt="demo-gif" border="10" />
 
 
 ## Installation
