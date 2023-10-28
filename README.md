@@ -11,15 +11,15 @@ I'll try to keep the plugin updated as I add more functionalities for my own nee
 
 ## Screenshots
 
-![sections Screenshot](.images/plugin-sections.png)
+![sections Screenshot](./images/plugin-sections.png)
 
-![nodes Screenshot](.images/nodes.png)
+![nodes Screenshot](./images/nodes.png)
 
 
 
 ## Demo
 
-<img src=".gif/demo.gif" alt="demo-gif" width="640" height="360" border="10" />
+<img src="./gif/demo.gif" alt="demo-gif" width="640" height="360" border="10" />
 
 
 ## Installation
