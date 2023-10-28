@@ -24,8 +24,7 @@ int32 UVioBPFL::AddAnimCompositeSectionHelper(UAnimMontage* TargetAnimMontage, F
 }
 
 void UVioBPFL::PopulateMontageWithClips(UAnimMontage* TargetMontageInput, TArray<UAnimSequence*> ClipsInput,
-										TArray<FName> SectionNamesInput, UAnimSequence* OverrideLastClipInput,
-										TSubclassOf<UAnimNotify> ShootNotifyToAdd)
+										TArray<FName> SectionNamesInput, UAnimSequence* OverrideLastClipInput)
 {
 	if (TargetMontageInput)
 	{

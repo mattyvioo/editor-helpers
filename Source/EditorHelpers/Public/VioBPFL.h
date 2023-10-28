@@ -25,8 +25,7 @@ public:
 	UFUNCTION(BlueprintCallable, Category="EditorHelpers|AnimationMontageHelpers",
 		meta = (AutoCreateRefTerm="SectionNamesInput, ReloadingAnimSequenceInput"))
 	static void PopulateMontageWithClips(UAnimMontage* TargetMontageInput, const TArray<UAnimSequence*> ClipsInput,
-	                                     TArray<FName> SectionNamesInput, UAnimSequence* ReloadingAnimSequenceInput,
-	                                     TSubclassOf<UAnimNotify> ShootNotifyToAdd);
+	                                     TArray<FName> SectionNamesInput, UAnimSequence* OverrideLastClipInput);
 
 	UFUNCTION(BlueprintPure, Category="EditorHelpers|AnimationMontageHelpers")
 	static float GetPlayLenght(const UAnimSequenceBase* TargetAnimSequence);
